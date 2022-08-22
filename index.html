@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaires HTML 5</title>
+</head>
+<body>
+    <h1>Les formulaires en HTML 5 </h1>
+
+<form method="POST">
+
+    <fieldset>
+        <legend>Inscription</legend>
+
+           <div>
+                 <label for="">Nom :</label>
+                 <input type="text" name="nom" placeholder="Your name here ..."/>
+           </div>
+           <div>
+                 <label for="">Prenom :</label>
+                 <input type="text" name="prenom"/>
+           </div>
+           <div>
+                 <label for="">Masculin</label>
+                 <input type="radio" name="sexe" value="masculin" checked/>
+                 <label for="">Féminin</label>
+                 <input type="radio" name="sexe" value="feminin"/>
+           </div>
+           <div>
+                 <label for="">email :</label>
+                 <input type="email" name="email"/>
+           </div>
+           <div>
+                 <label for="">password :</label>
+                 <input type="password" name="password"/>
+           </div>
+           <div>
+                 <label for="">Votre photo :</label>
+                 <input type="file" name="picture" accept="image/jpg"/>
+           </div>
+
+           <div>
+            <label for="">pays :</label>
+            <select name="pays" id="" >
+                 <option value="france">France</option>
+                 <option value="allemagne">Allemagne</option>
+                 <option value="italie">Italie</option>
+                 <option value="maroc">Maroc</option>
+                 <option value="pays-bas">Pays-bas</option>
+                 <option value="haiti" selected>Haïti</option>
+            </select>
+      </div>
+
+ <div>
+      <label for="">Déscription :</label>
+ </div>
+
+                 <div>                 
+                  <textarea name="biographie" id="" cols="30" rows="10" placeholder="Tapez votre texte ici ..."></textarea>
+                 </div>
+
+           <div>
+                 <input type="submit" value="login">
+                 <input type="reset" value="reinitialiser">
+           </div>
+      
+   
+
+
+    </fieldset>
+
+
+</form>
+
+
+</body>
+</html>
